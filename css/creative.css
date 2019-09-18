@@ -976,6 +976,10 @@ width: 60%;
   background-attachment: fixed;
 }
 
+.shop-title {
+  text-align: center;
+}
+
 .shop-h1 {
     margin-left: auto;
     margin-right: auto;
