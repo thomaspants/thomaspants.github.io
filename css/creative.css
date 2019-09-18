@@ -716,7 +716,7 @@ font-weight: 600;
 
 @media (max-width: 999px) {
   .shop-link {
-    letter-spacing: -4px;
+    letter-spacing: -8px;
   }
 }
 
@@ -971,7 +971,7 @@ width: 60%;
 .side-gradient-bg {
   background-image: linear-gradient(#f58847, #f9dfba);
   margin: 0;
-  background-size: 70px;
+  background-size: 70px 100%;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
@@ -1504,6 +1504,7 @@ width: 60%;
 .breadcrumbs a {
   color: black;
   margin-left: 10px;
+  z-index: 1250;
 }
 
 .breadcrumbs p {
