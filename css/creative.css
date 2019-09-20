@@ -284,6 +284,11 @@
   margin-top: 4%;
 }
 
+.regular-p a {
+  color: white;
+  text-decoration: underline;
+}
+
 @media (max-width: 993px) {
 .nav-center-logo {
   display: none !important;
@@ -784,6 +789,15 @@ font-weight: 600;
 }
 
 /*brand page*/
+.brand-sticky img {
+  margin-top: 4.5rem !important
+}
+
+.brand-sticky {
+  position: -webkit-sticky !important; /* Safari */
+  position: sticky !important;
+  top: 14%;
+}
 
 .brand-text-block {
   width: 60%;
@@ -893,7 +907,15 @@ width: 60%;
 .brand-footer {
   margin-left: 10%;
   margin-right: 10%;
-  color: white;
+  color: black;
+}
+
+.brand-footer .regular-p {
+  color: black !important;
+}
+
+.brand-hr {
+  border-top: 2px solid black !important;
 }
 
 .email-form {
@@ -1131,6 +1153,12 @@ width: 60%;
   margin-top: 6rem;
 }
 
+@media(max-width: 500px) {
+  .shop-top-promo {
+    margin-top: 2.5rem;
+  }
+}
+
 .shop-promo {
   width: 85%;
   left:15%;
@@ -1160,13 +1188,17 @@ width: 60%;
 
 @media (max-width: 1000px) {
 .shop-promo-graphic {
-  height: 15vh;
+  height: 10vh;
+  margin-top: -90%;
+  margin-left: -23%;
 }
 }
 
 @media (max-width: 1000px) {
 .shop-promo-graphic-top {
-  height: 15vh;
+  height: 10vh;
+  margin-top: -90%;
+  margin-left: -18%;
 }
 }
 
@@ -1242,8 +1274,21 @@ width: 60%;
   z-index: 100;
 }
 
+@media (max-width: 500px) {
+  .lookbook-link-right a {
+    font-size: 4rem !important;
+    letter-spacing: -6px;
+  }
+}
+
 .lookbook-shop-link {
   font-size: 7rem;
+}
+
+@media (max-width: 500px) {
+  .lookbook-shop-link {
+  font-size: 5.45rem;
+  }
 }
 
 .lookbook-overlay {
@@ -1286,6 +1331,12 @@ width: 60%;
   right: -10%;
 }
 
+@media (max-width: 500px) {
+  .lookbook-img-left-1 {
+    width: 85%;
+  }
+}
+
 .lookbook-img-right-1 {
   width: 111%;
   right: -4.5%;
@@ -1297,14 +1348,34 @@ width: 60%;
   z-index: 10;
 }
 
+@media (max-width: 500px) {
+  .lookbook-even {
+    margin-top: 1rem;
+  }
+}
+
 .lookbook-even-left {
   width: 73%;
   margin-left: 20%;
 }
 
+@media (max-width: 500px) {
+  .lookbook-even-left {
+    width: 85%;
+    margin-left: 15%;
+  }
+}
+
 .lookbook-even-right {
   width: 70%;
   margin-right: 20%;
+}
+
+@media (max-width: 500px) {
+  .lookbook-even-right {
+    width: 85%;
+    margin-left: 15%;
+  }
 }
 
 .lookbook-left {
@@ -1319,6 +1390,12 @@ width: 60%;
 .lookbook-left-img-right {
   width: 75%;
   margin-top: 12.5%;
+}
+
+@media (max-width: 500px) {
+  .lookbook-left-img-right {
+    width: 85%;
+  }
 }
 
 .lookbook-left-graphic {
@@ -1347,9 +1424,21 @@ width: 60%;
   margin-top: -12%;
 }
 
+@media (max-width: 500px) {
+  .lookbook-left-high-left {
+    width: 85%;
+  }
+}
+
 .lookbook-left-high-right {
   width: 80%;
   margin-top: 3rem;
+}
+
+@media (max-width: 500px) {
+  .lookbook-left-high-right {
+    width: 85%;
+  }
 }
 
 .lookbook-graphic-left {
@@ -1374,13 +1463,31 @@ width: 60%;
   margin-left: 15%;
 }
 
+@media (max-width: 500px) {
+  .lookbook-right-high-left {
+    width: 85%;
+  }
+}
+
 .lookbook-right-high-right {
   width: 80%;
   margin-left: 5%;
 }
 
+@media (max-width: 500px) {
+  .lookbook-right-high-right {
+    width: 85%;
+  }
+}
+
 .lookbook-left-large {
   margin-top: 5rem;
+}
+
+@media (max-width: 500px) {
+  .lookbook-left-large {
+    margin-top: 3.5rem;
+  }
 }
 
 .lookbook-left-large-left {
@@ -1608,7 +1715,13 @@ width: 60%;
 
 @media (max-width: 999px) {
 .large-pdp-info {
-  display:none;
+  height: 100%;
+  background-color: rgb(0,0,0,.7);
+  padding-top: 2rem;
+  border: 1px solid black;
+  margin-top: 1rem;
+  width: 80% !important;
+  margin-left: 4rem;
 }
 }
 
@@ -1626,6 +1739,21 @@ width: 60%;
 .small-pdp-info {
   display:none;
 }
+}
+
+.ecom-prop {
+  background-color: rgb(1,1,1,.7);
+    color: white;
+    border-radius: 2px;
+    vertical-align: middle;
+    text-align: center;
+    z-index: 150;
+    font-family: montserrat;
+    flex: 0 0 26% !important;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    height: 2.5rem;
+    font-size: 12px;
 }
 
 /* buy button */
@@ -1652,6 +1780,35 @@ width: 60%;
 .fun-drinks-row a {
   text-decoration: underline;
   color: white;
+}
+
+.fun-left-img {
+  margin-top: 1rem;
+  margin-left: 15%;
+}
+
+.fun-offer-text {
+  color: white;
+}
+
+.fun-offer-text a {
+  color: white;
+  text-decoration: underline;
+}
+
+.fun-offer-text p {
+  font-size: 1rem !important;
+  margin-left: 25%;
+  width: 150%;
+}
+
+.fun-img-right {
+  width: 75%  !important;
+  margin-top: 3rem;
+}
+
+.fun-top-section {
+  margin-top: 2rem;
 }
 
 .fun-h1 {
