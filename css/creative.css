@@ -814,7 +814,8 @@ font-weight: 700;
 
 @media (max-width: 767px) {
   .brand-text-block {
-    height: 540px;
+    height: 520px;
+    width: 75%
   }
 }
 
