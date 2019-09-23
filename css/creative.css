@@ -575,7 +575,7 @@
     color: white;
     margin-left: 0rem;
     position: absolute;
-    margin-top: 4rem;
+    margin-top: 5.6rem;
     width: 20rem;
     font-size: 1.25rem;
     font-family: Montserrat;
@@ -584,6 +584,7 @@
 @media (max-width: 568px) {
   .hero-link-top-left h1 {
     margin-left: -6rem;
+    margin-top:7.5rem;
   }
 }
 
@@ -596,7 +597,8 @@
 
 @media (max-width: 568px) {
   .hero-link-top-left img {
-    margin-left: -8rem;
+    margin-left: -6.5rem;
+    width: 15rem;
     margin-top: 10rem;
   }
 }
@@ -682,7 +684,7 @@
 
 .hero-link {
 font-family: Montserrat;
-font-weight: 600;
+font-weight: 700;
 }
 
 .shop-link span:hover {
@@ -801,11 +803,19 @@ font-weight: 600;
 
 .brand-text-block {
   width: 60%;
-  margin-left: 38%;
+  margin-left: 13%;
   height: 400px;
   background-color: rgb(0,0,0,.7);
   opacity: 1;
   margin-top: 2%;
+      padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+@media (max-width: 767px) {
+  .brand-text-block {
+    height: 470px;
+  }
 }
 
 .brand-logo {
@@ -823,7 +833,6 @@ font-weight: 600;
 .brand-text h1 {
   margin-top: 2%;
   font-weight: 600;
-  text-transform: uppercase;
 }
 
 @media (min-width: 768px) {
@@ -844,53 +853,66 @@ margin-top: 2rem;
 }
 
 .brand-graphic {
-  text-align: center;
-  width: 30%;
-  margin-left: 13%;
-  z-index: 10;
-  margin-top: 2%;
+    text-align: center;
+    width: 30%;
+    margin-left: 122%;
+    z-index: 10;
+    margin-top: -21%;
 }
 
 @media (max-width: 768px) {
   .brand-graphic {
 width: 60%;
+margin-left: 90%;
 }
 }
 
 
 .brand-img-1 {  
-  margin-left: 5%;
-    width: 90%;
-    margin-top: -30%;
-    z-index: -1;
+  margin-left: 40%;
+  width: 50%;
+  margin-top: -10%;
+  z-index: -1;
 }
 
 .brand-img-1 img {
   width: 100%;
+
 }
 
 @media (max-width: 768px) {
 .brand-img-1 {
-  margin-top: -64%;
+  margin-top: 5%;
+  width: 70%;
+  margin-left: 20%;
 }
 }
 
 .brand-img-2 {
-  width: 70%;
-    margin-top: -4%;
-    margin-left: 0%;
+    width: 80%;
+    margin-top: 4%;
+    margin-left: 15%;
 }
+
+@media (max-width: 768px) {
+.brand-img-2 {
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 5%;
+}
+}
+
 
 .brand-img-2 img {
   width: 100%;
 }
 
 .brand-img-3 {
-  width: 50%;
-    margin-left: 63%;
-    margin-top: -52%;
+      width: 25.3%;
+    margin-left: 11%;
+    margin-top: -95%;
     margin-right: 0%;
-}
+  }
 
 .brand-img-3 img {
   width: 100%;
@@ -898,20 +920,31 @@ width: 60%;
 
 @media (max-width: 768px) {
 .brand-img-3 {
-  width: 50%;
-  right:0%;
-  margin-top: -30%;
+  width: 60%;
+  margin-top: 5%;
+  margin-left: 15%;
 }
 }
 
 .brand-footer {
-  margin-left: 10%;
-  margin-right: 10%;
-  color: black;
+  width: 50%;
+  margin-left: 5%;
+  height: 240px;
+  background-color: rgb(0,0,0,.7);
+  opacity: 1;
+  margin-top: -62%;
 }
 
+@media (min-width: 768px) {
+  .brand-footer {
+    margin-top: -22%;
+    padding-top: 1.5rem;
+  }
+}
+
+
 .brand-footer .regular-p {
-  color: black !important;
+  color: white !important;
 }
 
 .brand-hr {
@@ -996,6 +1029,7 @@ width: 60%;
   background-size: 70px 100%;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  z-index: -1;
 }
 
 .shop-title {
@@ -1010,7 +1044,7 @@ width: 60%;
 
 @media (max-width: 768px){
 .shop-sticky-logo img {
-  margin-top: 20rem;
+  margin-top: 9rem;
 }
 }
 
@@ -1119,7 +1153,7 @@ width: 60%;
 @media (max-width: 768px) {
 .shop-h2-product {
   margin-top: 0rem;
-  font-size: 1rem !important;
+  font-size: .8rem !important;
 }
 }
 .shop-p p {
@@ -1151,18 +1185,41 @@ width: 60%;
 
 .shop-row {
   margin-bottom:-10%;
+
+}
+
+.promo-r {
+  width: 125%;
+    position: absolute;
+    left: -23%;
+    top: -6%;
+}
+
+@media (max-width: ) {
+  .promo-r {
+    top: -6%;
+  }
+}
+
+.shop-right-row {
+  /*background-image: url('../img/rahlies-r.png');
+  background-size: 125%;
+  background-repeat: no-repeat;
+  background-position: 67% -13%;
+  z-index: 1000 !important;*/
 }
 
 .shop-promo-row {
+  margin-top: 3rem;
 }
 
 .shop-top-promo {
-  margin-top: 6rem;
+  margin-top: 10rem;
 }
 
 @media(max-width: 500px) {
   .shop-top-promo {
-    margin-top: 2.5rem;
+    margin-top: 4.5rem;
   }
 }
 
@@ -1183,21 +1240,27 @@ width: 60%;
   z-index: 10;
   left: 39%;
   height: 29vh;
-  margin-top: -127%;
+  margin-top: -107%;
   }
 
 .shop-promo-graphic-top {
   z-index: 10;
   left: 39%;
-  height: 29vh;
+  height: 7rem;
   margin-top: -103%;
   }
 
 @media (max-width: 1000px) {
 .shop-promo-graphic {
   height: 10vh;
-  margin-top: -90%;
-  margin-left: -23%;
+  margin-top: -104%;
+  margin-left: 0%;
+}
+}
+
+@media (max-width: 500px) {
+.shop-promo-graphic {
+  margin-left: -5%;
 }
 }
 
@@ -1212,6 +1275,40 @@ width: 60%;
 .shop-copy {
   color: white;
   font-size: .75rem !important;
+  width: 90%;
+}
+
+@media (max-width: 500px) {
+  .shop-copy {
+    font-size: .65rem !important;
+  }
+}
+
+.shop-colors {
+  margin-left: 0rem !important;
+  margin-top: -.7rem;
+}
+
+.shop-color-black {
+  background-color: black;
+  height: 1.25rem;
+  width: 1.25rem;
+      margin-bottom: 1rem;
+    margin-right: .5rem;
+    border-radius: 30px;
+}
+
+.shop-color-white {
+  background-color: white;
+  height: 1.25rem;
+  width: 1.25rem;
+      margin-bottom: 1rem;
+    margin-right: .5rem;
+    border-radius: 30px;
+}
+
+.pdp-shop-color-white {
+  border: 1px solid black;
 }
 
 .shop-promo-link {
@@ -1314,12 +1411,22 @@ width: 60%;
 }
 
 .lookbook-img:hover {
-  opacity: .8;
+  opacity: .5;
+  filter: contrast(1.2);
   transition: .8s ease;
 }
 
 .lookbook-img {
   transition: 1.8s ease;
+}
+
+.pdp-lookbook-bg {
+  background-image: linear-gradient(#f58847, #f9dfba);
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100%;
+  z-index: -100;
 }
 
 .lookbook-hero img {
@@ -1329,7 +1436,7 @@ width: 60%;
 }
 
 .lookbook-right {
-  margin-top: 3rem;
+  margin-top: 6rem;
 }
 
 .lookbook-img-left-1 {
@@ -1397,6 +1504,7 @@ width: 60%;
 .lookbook-left-img-right {
   width: 75%;
   margin-top: 12.5%;
+  z-index: 1;
 }
 
 @media (max-width: 500px) {
@@ -1413,13 +1521,13 @@ width: 60%;
   width: 60%;
   left: 30%;
   top: 30%;
+  z-index: 10;
 }
 
 .lookbook-hero-left img {
   width: 80%;
   left: -8%;
   margin-top: -15%;
-  z-index: -10;
 }
 
 .lookbook-left-high {
@@ -1440,6 +1548,7 @@ width: 60%;
 .lookbook-left-high-right {
   width: 80%;
   margin-top: 3rem;
+  z-index: 1;
 }
 
 @media (max-width: 500px) {
@@ -1579,6 +1688,10 @@ width: 60%;
 }
 
 /*PDP*/
+#page-top {
+  z-index: -1;
+}
+
 .pdp-container {
   width: 88% !important;
   padding-right: 15px;
@@ -1694,18 +1807,14 @@ width: 60%;
 }
 
 .pdp-h2 {
-  color: white;
+  color: black;
   font-family: montserrat;
   font-weight: 600;
   font-size: 1rem;
 }
 
-.dark-heading {
-  color: black !important;
-}
-
 .pdp-p {
-  color: white;
+  color: black;
   font-size: 12px !important;
 }
 
@@ -1713,6 +1822,7 @@ width: 60%;
   margin-left: 0%;
   width: 25px;
   color: white;
+  border-top: 2px solid black !important;
   margin-top: 0;
 }
 
@@ -1721,22 +1831,18 @@ width: 60%;
 }
 
 .large-pdp-info {
-  position: -webkit-sticky !important; /* Safari */
+  position: -webkit-sticky !important;
   position: sticky !important;
-  top: -5%;
+  top: -25%;
   height: 100%;
-  background-color: rgb(0,0,0,.7);
   padding-top: 2rem;
-  border: 1px solid black;
   margin-top: -8.5rem;
 }
 
 @media (max-width: 999px) {
 .large-pdp-info {
   height: 100%;
-  background-color: rgb(0,0,0,.7);
   padding-top: 2rem;
-  border: 1px solid black;
   margin-top: 1rem;
   width: 80% !important;
   margin-left: 4rem;
@@ -1759,19 +1865,36 @@ width: 60%;
 }
 }
 
+.ecom-props {
+  margin-top: 1.5rem;
+}
+
 .ecom-prop {
-  background-color: rgb(1,1,1,.7);
+  background-color: gray;
     color: white;
-    border-radius: 2px;
+    border-radius: 3px;
     vertical-align: middle;
     text-align: center;
     z-index: 150;
     font-family: montserrat;
-    flex: 0 0 26% !important;
-    margin-left: 1rem;
-    margin-right: 1rem;
+    margin-left: 0rem;
+    margin-right: 3%;
     height: 2.5rem;
-    font-size: 12px;
+    font-size: 9px;
+    width: 40%;
+    margin-bottom: .5rem;
+    padding-top: 6px;
+}
+
+.ecom-prop img {
+  height: 20px;
+    margin-right: 1rem;
+    margin-top: 3px;
+    margin-left: 3rem;
+}
+
+.ecom-prop-img-2 {
+  margin-left: 2.7rem !important;
 }
 
 /* buy button */
@@ -1802,7 +1925,7 @@ width: 60%;
 
 .fun-left-img {
   margin-top: 1rem;
-  margin-left: 15%;
+  margin-left: 20%;
 }
 
 .fun-offer-text {
@@ -2016,6 +2139,21 @@ footer h5 {
 
 .footer-contact p {
   font-size: 11px !important;
+}
+
+.social-icons {
+  padding-left:1rem;
+}
+
+.social-icon img {
+  width: 2.5rem;
+  margin-right: .5rem;
+  transition: .5s ease;
+}
+
+.social-icon img:hover {
+  width: 2.75rem;
+  transition: .5s ease;
 }
 
 /*end custom*/
@@ -6523,17 +6661,18 @@ input[type="button"].btn-block {
   margin-bottom: 0;
   list-style: none;
   background-color: black;
-    width: 8rem;
+    width: 12rem;
     margin-left: auto;
-    margin-right: 2%;
+    margin-right: -3rem;
     text-align: right;
-    padding-right: 1rem;
+    padding-right: 4.5rem;
+    margin-top:-5.2rem;
 }
 
 .navbar-nav img {
     width: 55%;
     margin-left: auto;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
     transition: .5s ease;
     margin-top: 1rem;
 }
@@ -6597,6 +6736,7 @@ input[type="button"].btn-block {
   margin-top: 1rem;
   margin-right: 1rem;
   transition: .5s ease;
+  z-index: 10;
 }
 
 .navbar-toggler-icon:hover {
