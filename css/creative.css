@@ -814,8 +814,9 @@ font-weight: 700;
 
 @media (max-width: 767px) {
   .brand-text-block {
-    height: 520px;
-    width: 75%
+    height: 590px;
+    width: 75%;
+    padding-top: 0rem;
   }
 }
 
@@ -864,7 +865,8 @@ margin-top: 2rem;
 @media (max-width: 768px) {
   .brand-graphic {
 width: 60%;
-margin-left: 90%;
+    margin-left: 58%;
+    margin-top: 5%;
 }
 }
 
