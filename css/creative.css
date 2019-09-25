@@ -247,6 +247,27 @@
 }
 
 /*custom styles*/
+.promo-banner {
+  height: 2rem;
+  background-color: black;
+  color: white;
+  position: sticky !important;
+  position: -webkit-sticky !important;
+  top: 0;
+  z-index: 10;
+}
+
+.promo-banner p {
+  text-align: center;
+  vertical-align: middle;
+  font-size: 14px;
+  padding-top: .3rem;
+}
+
+.promo-banner a {
+  color: white;
+}
+
 .container-bg {
   
 }
