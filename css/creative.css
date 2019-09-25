@@ -30,7 +30,7 @@
 
 .fun-link {
   transform: translate(-50%, -50%);
-  font-size: 15vh;
+  font-size: 13vh;
   color: #fff;
   text-align: center;
   /*text-shadow:
@@ -249,8 +249,8 @@
 /*custom styles*/
 .promo-banner {
   height: 2rem;
-  background-color: black;
-  color: white;
+  background-color: white;
+  color: #f58847;
   position: sticky !important;
   position: -webkit-sticky !important;
   top: 0;
@@ -265,7 +265,7 @@
 }
 
 .promo-banner a {
-  color: white;
+  color: #f58847;
 }
 
 .container-bg {
@@ -1055,11 +1055,11 @@ width: 60%;
 .fun-bg {
   background-image: url('../img/rahlies-champagne.gif');
     margin: 0;
-    background-size: cover;
+    background-size: auto 100%;
     background-attachment: fixed;
     overflow-x: hidden;
     height: 100%;
-    background-position: bottom;
+    background-position: left;
 }
 
 @media (max-width: 768px) {
@@ -1504,7 +1504,7 @@ width: 60%;
 
 .lookbook-img-right-1 {
   width: 111%;
-  right: -4.5%;
+  right: 4.5%;
 }
 
 .lookbook-even {
@@ -1665,7 +1665,7 @@ width: 60%;
 .lookbook-left-large-right {
   width: 111%;
   margin-top: -10%;
-  left: 5%;
+  left: -4%;
 }
 
 .lookbook-center-graphic {
@@ -9071,26 +9071,35 @@ a.close.disabled {
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
   display: inline-block;
-  width: 4rem;
-  height: 4rem;
+  width: 3.5rem;
+  height: 2.52rem;
   background: no-repeat 50% / 100% 100%;
 }
 
 .carousel-control-prev-icon {
-  background-image: url("../img/right-arrow-hand.svg");
+  background-image: url("../img/arrow-black.png");
   transform: rotate(180deg);
   width: 2rem;
-  margin-top:2rem;
+  height: 1.44rem;
+  /*margin-top:2rem;*/
 }
 
 .carousel-control-next-icon {
-  background-image: url('../img/right-arrow-white.png');
+  background-image: url('../img/arrow-white.png');
+  margin-left: -1rem;
+  transition: .5s ease;
+}
+
+.carousel-control-next-icon:hover {
+  margin-left: .5rem;
+  transition: .5s ease;
 }
 
 .pdp-carousel-control-next-icon {
-  background-image: url('../img/right-arrow-hand.svg') !important;
+  background-image: url('../img/arrow-black.png') !important;
   width: 2rem;
-  margin-top:4rem;
+  height: 1.44rem;
+  /*margin-top:4rem;*/
   left: 1rem;
 }
 
@@ -12906,6 +12915,7 @@ body,
 html {
   width: 100%;
   height: 100%;
+  overflow-x: hidden !important; 
 }
 
 .text-white-75 {
