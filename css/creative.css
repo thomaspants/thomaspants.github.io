@@ -963,6 +963,7 @@ width: 60%;
   font-family: Montserrat;
   width: 80%;
   margin-top:1rem;
+  border-radius: 0px;
 }
 
 .email-form:focus {
@@ -978,6 +979,7 @@ width: 60%;
     font-weight: 600;
     font-family: Montserrat;
     margin-top: 2rem;
+    border-radius: 0px;
 }
 
 .email-submit:hover {
@@ -1002,6 +1004,7 @@ width: 60%;
   font-family: Montserrat;
   margin-top:1rem;
   width: 31%;
+  border-radius: 0px;
 }
 
 .bday-input-right {
@@ -1013,6 +1016,7 @@ width: 60%;
   font-family: Montserrat;
   margin-top:1rem;
   width: 15%;
+  border-radius: 0px;
 }
 
 /*shop page*/
@@ -1024,6 +1028,22 @@ width: 60%;
   margin: 0;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  padding-bottom: 3rem;
+}
+
+.fun-bg {
+  background-image: url('../img/rahlies-champagne.gif');
+  margin: 0;
+  background-size: cover;
+  height: 100%;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.fun-container {
+  background-color: rgb(1,1,1,.6);
+  width: 90%;
+  margin-left:10%;
 }
 
 .side-gradient-bg {
@@ -1047,7 +1067,7 @@ width: 60%;
 
 @media (max-width: 768px){
 .shop-sticky-logo img {
-  margin-top: 9rem;
+  margin-top: 20rem;
 }
 }
 
@@ -1192,10 +1212,10 @@ width: 60%;
 }
 
 .promo-r {
-  width: 125%;
+  width: 100%;
     position: absolute;
     left: -23%;
-    top: -6%;
+    top: -3%;
 }
 
 @media (max-width: ) {
@@ -1836,7 +1856,7 @@ width: 60%;
 .large-pdp-info {
   position: -webkit-sticky !important;
   position: sticky !important;
-  top: -25%;
+  top: -33%;
   height: 100%;
   padding-top: 2rem;
   margin-top: -8.5rem;
@@ -1870,6 +1890,7 @@ width: 60%;
 
 .ecom-props {
   margin-top: 1.5rem;
+  padding-left: 1rem;
 }
 
 .ecom-prop {
@@ -1877,14 +1898,15 @@ width: 60%;
     color: white;
     border-radius: 3px;
     vertical-align: middle;
-    text-align: center;
+    text-align: left;
     z-index: 150;
     font-family: montserrat;
     margin-left: 0rem;
     margin-right: 3%;
     height: 2.5rem;
     font-size: 9px;
-    width: 40%;
+    padding-left: 2rem;
+    padding-right: 2rem;
     margin-bottom: .5rem;
     padding-top: 6px;
 }
@@ -1893,17 +1915,35 @@ width: 60%;
   height: 20px;
     margin-right: 1rem;
     margin-top: 3px;
-    margin-left: 3rem;
 }
 
 .ecom-prop-img-2 {
-  margin-left: 2.7rem !important;
 }
 
-/* buy button */
-.shopify-buy__option-select-wrapper {
-  background-color: red !important;
+.shop-colors-large, .shop-colors-small {
+  margin-left: 0rem !important;
 }
+
+@media (max-width: 999px){
+.shop-colors-large {
+  display: none !important;
+}
+}
+
+@media (min-width: 999px) {
+.shop-colors-small {
+  display: none !important;
+}
+}
+
+#pdp-small-white, #pdp-small-white, #black, #white {
+  transition: .5s ease;
+}
+
+#pdp-black, #pdp-white, #pdp-black-small, #pdp-white-small {
+  outline: none;
+}
+/* buy button */
 
 
 /*fun page*/
@@ -1942,8 +1982,9 @@ width: 60%;
 
 .fun-offer-text p {
   font-size: 1rem !important;
-  margin-left: 25%;
-  width: 150%;
+  margin-left: 4rem;
+  padding-right: 3rem;
+  padding-bottom: 1rem;
 }
 
 .fun-img-right {
@@ -1956,16 +1997,9 @@ width: 60%;
 }
 
 .fun-h1 {
-    display: inline-block;
-    margin-left: auto;
-    margin-right: auto;
-    color: white;
-    font-family: Montserrat;
-    font-weight: 900;
-    font-size: 4em !important;
-    width: 100%;
-    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
-    letter-spacing: 2px;
+  margin-left:3rem !important;
+  padding-right: 2rem;
+  padding-top:1rem;
 }
 
 .fun-h1:after {
@@ -2122,6 +2156,7 @@ width: 60%;
   margin-right: auto !important;
   margin-top: 6rem;
   margin-bottom: 3rem;
+  padding-bottom: 3rem;
 }
 
 footer h5 {
@@ -6607,6 +6642,7 @@ input[type="button"].btn-block {
 
 .navbar {
   position: sticky;
+  position: -webkit-sticky !important;
   top:0;
   z-index: 1000;
   display: -webkit-box;
@@ -6663,13 +6699,12 @@ input[type="button"].btn-block {
   padding-left: 0;
   margin-bottom: 0;
   list-style: none;
-  background-color: black;
-    width: 12rem;
+  background-color: rgb(1,1,1,.6);
+  width: 10rem;
     margin-left: auto;
-    margin-right: -3rem;
-    text-align: right;
-    padding-right: 4.5rem;
-    margin-top:-5.2rem;
+    margin-right: 2rem;
+    text-align: center;
+    
 }
 
 .navbar-nav img {
@@ -6689,7 +6724,7 @@ input[type="button"].btn-block {
   padding-right: 0;
   padding-left: 0;
   margin-left: auto;
-  margin-right: 2%;
+  margin-right: 2.5rem;
 }
 
 .navbar-nav .dropdown-menu {
