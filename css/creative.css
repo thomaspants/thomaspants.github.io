@@ -751,7 +751,7 @@ font-weight: 700;
     border-radius: 3px;
     box-shadow: none;
     font-family: Montserrat;
-    font-weight: 900 !important;
+    font-weight: 600 !important;
 }
 
 .contact-submit {
@@ -759,7 +759,7 @@ font-weight: 700;
   border-radius: 3px;
   border: none;
   font-family: Montserrat !important;
-  font-weight: 900;
+  font-weight: 600;
   padding-top: 10px !important;
   padding-bottom: 10px !important;
 }
@@ -8537,7 +8537,7 @@ a.close.disabled {
   margin-bottom: 0;
   line-height: 1.5;
   font-size: 1rem !important;
-  font-weight: 900 !important;
+  font-weight: 600 !important;
 }
 
 .modal-body {
