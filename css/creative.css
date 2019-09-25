@@ -6676,7 +6676,7 @@ input[type="button"].btn-block {
 .navbar {
   position: sticky;
   position: -webkit-sticky !important;
-  top:0;
+  top:2%;
   z-index: 1000;
   display: -webkit-box;
   display: -ms-flexbox;
