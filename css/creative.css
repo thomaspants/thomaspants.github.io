@@ -1713,6 +1713,7 @@ width: 60%;
 /*PDP*/
 #page-top {
   z-index: -1;
+  overflow-x:hidden;
 }
 
 .pdp-container {
