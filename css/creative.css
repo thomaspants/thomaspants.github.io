@@ -1053,13 +1053,19 @@ width: 60%;
 }
 
 .fun-bg {
-  background-image: url(../img/rahlies-champagne.gif);
+  background-image: url('../img/rahlies-champagne.gif');
     margin: 0;
     background-size: cover;
     background-attachment: fixed;
     overflow-x: hidden;
     height: 100%;
     background-position: bottom;
+}
+
+@media (max-width: 768px) {
+  .fun-bg {
+    background-image: url('../img/rahlies-champagne-small.gif');
+  }
 }
 
 .fun-container {
