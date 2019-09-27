@@ -2,11 +2,32 @@
 <html lang="en">
 
 <head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-148819850-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-148819850-1');
+</script>
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="">
+  <meta name="description" content="Rahlies makes products engineered for a good time - starting with an accessible, durable, and stylish pair of overalls.">
   <meta name="author" content="">
+  <!--social graph tags-->
+  <meta property="og:title" content="Rahlies - Good times, overall.">
+  <meta property="og:description" content="The easy-to-wear uniform for the good times.">
+  <meta property="og:image" content="https://rahlies.com/img/rahlies-social.jpg">
+  <meta property="og:url" content="https://rahlies.com">
+
+  <meta name="twitter:title" content="Rahlies - Good times, overall.">
+  <meta name="twitter:description" content="The easy-to-wear uniform for the good times.">
+  <meta name="twitter:image" content="https://rahlies.com/img/rahlies-social.jpg">
+  <meta name="twitter:card" content="https://rahlies.com/img/rahlies-social.jpg">  
+  <!--end social graph tags-->
+
   <link rel="icon" type="image/png" href="img/rahlies-favicon.ico">
 
   <title>Rahlies - Good times, overall.</title>
@@ -29,7 +50,11 @@
 </head>
 
 <body id="page-top" class="gradient-bg-body">
-
+  
+  <div class="full-page">
+  <div class="promo-banner">
+    <a href="/shop"><p><strong>Pre-order</strong> now! All orders ship free early Oct.</p></a>
+  </div>
   <!-- Navigation -->
  <!-- <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
     <div class="container">
@@ -55,34 +80,48 @@
       </div>
     </div>
   </nav> -->
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand nav-left-logo" href="#">
-        <img class="nav-logo" src="../img/rahlies-avatar.png">
-      </a>
+<nav class="navbar navbar-light bg-light">
+      <!--<a class="navbar-brand nav-left-logo" href="#">
+        <img class="nav-logo" src="img/rahlies-avatar.png">
+      </a>-->
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-      <p><span class="toggler-text">MENU</span>
+      <p><span class="navbar-toggler-icon"></span>
         <!--<span class="navbar-toggler-icon"></span>--></p>
     </button>
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav">
-        
+        <!--<p><span class="toggler-text">MENU</span>-->
+        <!--<span class="navbar-toggler-icon"></span></p>-->
+        <div class="spacer"></div>
+        <a class="nav-item nav-link nav-link-1 collapsed-nav-link" href="/">HOME</a>
         <a class="nav-item nav-link nav-link-1 collapsed-nav-link" href="/brand">BRAND</a>
-        <a class="nav-item nav-link active nav-link-2 collapsed-nav-link" href="/shop">SHOP</a>
-        <a class="navbar-brand nav-center-logo" href="#">
-          <img class="nav-logo" src="img/rahlies-avatar.png">
-        </a>
-        <a class="nav-item nav-link nav-link-3 collapsed-nav-link" href="/fun">FUN</a>
+        <a class="nav-item nav-link nav-link-2 collapsed-nav-link" href="/shop">SHOP</a>
         <a class="nav-item nav-link nav-link-4 collapsed-nav-link" href="#" data-toggle="modal" data-target="#exampleModalCenter">CONTACT</a>
+        <a class="nav-item nav-link nav-link-2 collapsed-nav-link" href="/fun">FUN</a>
+        <a href="/fun"><img src="img/rahlies-illo-smile-white.png"></a>
+        
       </div>
     </div>
   </nav>
 
+<div class="col hero-link-top-left text-left sticky-logo">
+  <a href="/"><img src="img/rahlies-logo-white.svg"></a>
+  <!--<a class="hero-link brand-link" data-shadow="BRAND" href="/brand">BRAND</a>-->
+</div>
 
+<div class="col hero-link-top-left text-left">
+  <h1>Good times, overall.</h1>
+  <!--<a class="hero-link brand-link" data-shadow="BRAND" href="/brand">BRAND</a>-->
+</div>
   <!-- Masthead -->
 
 
   <header class="masthead">
     <div class="container container-bg">
+      <div class="col not-found-message text-center">
+          <h2><span class="hero-link brand-link contact-link" data-shadow="404 ">404&nbsp;</span></h2>
+          <p>Sorry - the page you are looking for may long longer exist.</p>
+        </div>
       <!--<div class="row">
         <div class="col text-center hero-logo-row">
           <img class="hero-logo" src="img/rahlies-avatar.png">
@@ -90,16 +129,11 @@
         </div>
       </div>-->
       <div class="row">
-        <div class="col hero-link-top-left text-left">
-          <a class="hero-link brand-link" data-shadow="BRAND" href="/brand">BRAND</a>
-        </div>
+        
         <div class="col hero-link-top-right text-right">
-          <a class="hero-link shop-link" href="/shop">
-            <span>S</span>
-            <span>H</span>
-            <span>O</span>
-            <span>P</span>
-          </a>
+          
+          <img class="rahlies-tattoo" src="img/rahlies-seasonal-treatment-white.png">
+          
         </div>
       </div>
       <div class="row">
@@ -127,10 +161,30 @@
                 <img class="hero-img" src="img/DSC08073-min.jpg">
               </div>
 
-              <h1 class="hero-text">Good times, overall.</h1>
+              <!--<h1 class="hero-text">Good times, overall.</h1>-->
+            <!--<h1 class="hero-text"><a class="hero-link shop-link" href="/shop">
+            <span>G</span>
+            <span>o</span>
+            <span>o</span>
+            <span>d&nbsp;</span>
+            <span>t</span>
+            <span>i</span>
+            <span>m</span>
+            <span>e</span>
+            <span>s</span>
+            <span>,&nbsp;</span>
+            <span>o</span>
+            <span>v</span>
+            <span>e</span>
+            <span>r</span>
+            <span>a</span>
+            <span>l</span>
+            <span>l</span>
+            <span>.</span>
+          </a>
+          </h1>-->
               <!--<img class="hero-text-logo" src="img/rahlies-white.png">-->
-              <img class="hero-treatment" src="img/rahlies-seasonal-treatment.svg">
-              <img class="hero-logo" src="img/rahlies-avatar.png">
+              <!--<img class="hero-logo" src="img/rahlies-avatar.png">-->
             
             
           </div>
@@ -146,11 +200,19 @@
       </div>
       <div class="row">
         <div class="col hero-link-base-left text-left">
-          <a class="hero-link fun-link" href="/fun">FUN</a>
+          <!--<a class="hero-link fun-link" href="/fun">FUN</a>-->
         </div>
         <div class="col hero-link-base-right text-right">
-          <!-- Button trigger modal -->
-          <a class="hero-link brand-link contact-link" data-shadow="CONTACT" href="" data-toggle="modal" data-target="#exampleModalCenter">CONTACT</a>
+          <!-- Button trigger modal 
+          <a class="hero-link shop-link" href="/shop">
+            <span>S</span>
+            <span>H</span>
+            <span>O</span>
+            <span>P</span>
+          </a>-->
+
+          
+          <!--<a class="hero-link brand-link contact-link" data-shadow="CONTACT" href="" data-toggle="modal" data-target="#exampleModalCenter">CONTACT</a>-->
 
         </div>
       </div>
@@ -160,127 +222,145 @@
 <div class="spacer"></div>
 <div class="spacer"></div>
 
-<div class="container">
-    <hr class="home-hr">
+
+<!--LOOKBOOK START-->  
+
+<div class="container lookbook-container">
+    <!--<hr class="home-hr">-->
     <div class="spacer"></div>
+    <div class="spacer"></div>
+    <div class="spacer"></div>
+    <div class="spacer"></div>
+    <div class="spacer"></div>
+    <div class="spacer"></div>
+
+  
       <div class="row text-center" id="lookbook">
         <div class="col">
-          <h2><span class="hero-link brand-link contact-link" data-shadow="2019 ">2019&nbsp</span><span class="hero-link brand-link contact-link" data-shadow="LOOKBOOK">LOOKBOOK</span></h2>
+          <h2><span class="hero-link brand-link contact-link" data-shadow="2019 ">2019&nbsp;</span><span class="hero-link brand-link contact-link" data-shadow="LOOKBOOK">LOOKBOOK</span></h2>
         </div>
       </div>
 
-      <div class="lookbook-hero">
-        <img class="img-border" src="img/compressjpeg/DSC08567-min.jpg">
+      <div class="lookbook-hero negative-spacer-big">
+        <img class="lookbook-img" src="img/compressjpeg/DSC08567-min.jpg">
       </div>
 
       <div class="row lookbook-right">
         <div class="col-6">
-          <img class="lookbook-img-left-1 img-border" src="img/compresspng/RAHLIES_SELECTS-2-min.png">
-          <div class="img-overlay"></div>
+          <img class="lookbook-img-left-1 lookbook-img" src="img/compresspng/RAHLIES_SELECTS-2-min.png">
         </div>
         <div class="col-6">
-          <img class="lookbook-img-right-1 img-border" src="img/compresspng/RAHLIES_SELECTS-7-min.png">
+          <img class="lookbook-img-right-1 lookbook-img" src="img/compresspng/RAHLIES_SELECTS-7-min.png">
         </div>
       </div>
 
       <div class="lookbook-hero">
-        <img class="img-border" src="img/compressjpeg/DSC08304-min.jpg">
+        <img class="lookbook-img" src="img/compressjpeg/DSC08304-min.jpg">
       </div>
       
       <div class="lookbook-link-left">
-        <a class="fun-link" href="/fun">FUN</a>
+        <a class="fun-link" href="/shop">SHOP</a>
       </div>
       
       <div class="row lookbook-even">
         <div class="col-6">
-          <img class="lookbook-even-left img-border" src="img/compresspng/RAHLIES_SELECTS-12-min.png">
+          <img class="lookbook-even-left lookbook-img" src="img/compresspng/RAHLIES_SELECTS-12-min.png">
         </div>
         <div class="col-6">
-          <img class="lookbook-even-right img-border" src="img/compresspng/RAHLIES_SELECTS-1-min.png">
+          <img class="lookbook-even-right lookbook-img" src="img/compresspng/RAHLIES_SELECTS-1-min.png">
         </div>
       </div>
 
       <div class="lookbook-hero">
-        <img class="img-border" src="img/compressjpeg/DSC08210-min.jpg">
+        <img class="lookbook-img" src="img/compressjpeg/DSC08210-min.jpg">
       </div>
-
-      <div class="lookbook-link-right">
-        <a class="brand-link" data-shadow="BRAND" href="/fun">BRAND</a>
-      </div>
+    
 
       <div class="row lookbook-left">
         <div class="col-6">
-          <img class="lookbook-left-img-left img-border" src="img/compresspng/RAHLIES_SELECTS-9-min.png">
+          <img class="lookbook-left-img-left lookbook-img" src="img/compresspng/RAHLIES_SELECTS-9-min.png">
         </div>
         <div class="col-6">
-          <img class="lookbook-left-img-right img-border" src="img/compresspng/RAHLIES_SELECTS-4-min.png">
+          <img class="lookbook-left-img-right lookbook-img" src="img/compresspng/RAHLIES_SELECTS-4-min.png">
         </div>
+      </div>
+
+      <div class="lookbook-link-right">
+        <a class="shop-link" href="/shop">
+          <span>S</span>
+          <span>H</span>
+          <span>O</span>
+          <span>P</span>
+        </a>
       </div>
 
       <div class="row lookbook-left-graphic">
         <div class="col-6">
-          <img class="lookbook-left-graphic-img" src="img/rahlies-illo-waves.svg">
+          <img class="lookbook-left-graphic-img" src="img/waves-2.png">
         </div>
         <div class="col-6">
-          <img class="lookbook-left-img-right img-border" src="img/compresspng/RAHLIES_SELECTS-15-min.png">
+          <img class="lookbook-left-img-right lookbook-img" src="img/compresspng/RAHLIES_SELECTS-15-min.png">
         </div>
       </div>
 
       <div class="lookbook-hero-left">
-        <img class="img-border" src="img/compressjpeg/DSC08081-min.jpg">
+        <img class="lookbook-img" src="img/compressjpeg/DSC08081-min.jpg">
       </div>
 
       <div class="row lookbook-left-high">
         <div class="col-6">
-          <img class="lookbook-left-high-left img-border" src="img/compresspng/RAHLIES_SELECTS-16-min.png">
+          <img class="lookbook-left-high-left lookbook-img" src="img/compresspng/RAHLIES_SELECTS-16-min.png">
         </div>
         <div class="col-6">
-          <img class="lookbook-left-high-right img-border" src="img/compresspng/RAHLIES_SELECTS-17-min.png">
+          <img class="lookbook-left-high-right lookbook-img" src="img/compresspng/RAHLIES_SELECTS-17-min.png">
         </div>
       </div>
 
       <div class="lookbook-graphic-left">
-        <img src="img/rahlies-seasonal-treatment.svg">
+        <img src="img/rahlies-r.png">
       </div>
 
       <div class="lookbook-hero">
-        <img class="img-border" src="img/compressjpeg/DSC08538-min.jpg">
+        <img class="lookbook-img" src="img/compressjpeg/DSC08538-min.jpg">
+      </div>
+
+      <div class="lookbook-link-left negative-spacer">
+        <a class="" href="/shop">
+          <span class="lookbook-shop-link" data-shadow="SHOP">SHOP</span>
+        </a>
       </div>
 
       <div class="row lookbook-right-high">
         <div class="col-6">
-          <img class="lookbook-right-high-left img-border" src="img/compresspng/RAHLIES_SELECTS-5-min.png">
+          <img class="lookbook-right-high-left lookbook-img" src="img/compresspng/RAHLIES_SELECTS-5-min.png">
         </div>
         <div class="col-6">
-          <img class="lookbook-right-high-right img-border" src="img/compresspng/RAHLIES_SELECTS-6-min.png">
+          <img class="lookbook-right-high-right lookbook-img" src="img/compresspng/RAHLIES_SELECTS-6-min.png">
         </div>
       </div>
 
       <div class="row lookbook-left-large">
         <div class="col-6">
-          <img class="lookbook-left-large-left img-border" src="img/compressjpeg/DSC08094-min.jpg">
+          <img class="lookbook-left-large-left lookbook-img" src="img/compressjpeg/DSC08094-min.jpg">
         </div>
         <div class="col-6">
-          <img class="lookbook-left-large-right img-border" src="img/compressjpeg/DSC08090-min.jpg">
+          <img class="lookbook-left-large-right lookbook-img" src="img/compressjpeg/DSC08090-min.jpg">
         </div>
       </div>
 
       <div class="lookbook-hero">
-        <img class="img-border" src="img/compressjpeg/DSC08153-min.jpg">
+        <img class="lookbook-img" src="img/DSC08497-min.jpg">
       </div>
 <div class="spacer"></div>
-    <div class="col text-center">
-          <a class="hero-link shop-link" href="/shop">
-            <span>S</span>
-            <span>H</span>
-            <span>O</span>
-            <span>P</span>
-          </a>
-        </div>
-      <img class="lookbook-center-graphic" src="img/rahlies-illo-smile.svg">
+    <div class="text-center">
+      <a href="/fun"><img class="lookbook-center-graphic" src="img/rahlies-illo-smile.svg"></a>
     </div>
 
+
+
   </div>
+
+<!--LOOKBOOK END-->
 
    <footer>
       <div class="container">
@@ -324,19 +404,25 @@
           <div class="col-md-5 footer-contact">
             <h5>Contact Us</h5>
             <p>Email us: <a href="mailto:hello@rahlies.com">hello@rahlies.com</a></p>
-            <p>Text us: 503-704-9586</p>
+            <!--<p>Text us: 503-704-9586</p>-->
+            <div class="row social-icons">
+              <a class="social-icon" target="_blank" href="https://www.instagram.com/rahlies"><img src="img/instagram-black.png"></a>
+              <a class="social-icon" target="_blank" href="https://twitter.com/RahliesOveralls"><img src="img/twitter-black.png"></a>
+              <a class="social-icon" target="_blank" href="https://www.facebook.com/rahliesoveralls"><img src="img/facebook-black.png"></a>
+            </div>
             <p class="text-left hero-copyright">&copy; 2019 - Rahlies LLC</p>
           </div>
         </div>
       </div>
     </footer>
 
+</div>
     <!--Contact Modal -->
             <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
               <div class="modal-dialog modal-dialog-centered" role="document">
                 <div class="modal-content">
                   <div class="modal-header">
-                    <p class="modal-title col row text-left" id="exampleModalLongTitle">Question? Partnership idea? Party invite?<br>We'd love to hear from you.</p>
+                    <p class="modal-title col row text-left" id="exampleModalLongTitle">Question? Partnership idea? Party invite?<br>We'd love to hear from you here or at <a href="mailto:hello@rahlies.com">hello@rahlies.com</a>.</p>
                    <img class="contact-treatment" src="img/rahlies-seasonal-treatment.svg">
                    <img class="contact-treatment-2" src="img/rahlies-illo-smile.svg">
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -345,7 +431,7 @@
                   </div>
                   
                   <div class="modal-body">
-                    <form method="POST" action="https://formspree.io/tjiwasaki@gmail.com">
+                    <form method="POST" action="https://formspree.io/hello@rahlies.com">
                       <input class="col contact-form form-control form-control-top" type="email" name="email" placeholder="Your email">
                       <textarea class="col contact-form form-control form-control-bottom" name="message" placeholder="Your message"></textarea>
                       <button class="col contact-submit" type="submit">SEND</button>
@@ -450,6 +536,218 @@
       <div class="small text-center text-muted">Copyright &copy; 2019 - Rahlies LLC</div>
     </div>
   </footer>-->
+
+  <!-- Buy button -->
+
+<script type="text/javascript">
+/*<![CDATA[*/
+(function () {
+  var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
+  if (window.ShopifyBuy) {
+    if (window.ShopifyBuy.UI) {
+      ShopifyBuyInit();
+    } else {
+      loadScript();
+    }
+  } else {
+    loadScript();
+  }
+  function loadScript() {
+    var script = document.createElement('script');
+    script.async = true;
+    script.src = scriptURL;
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
+    script.onload = ShopifyBuyInit;
+  }
+  function ShopifyBuyInit() {
+    var client = ShopifyBuy.buildClient({
+      domain: 'rahlies.myshopify.com',
+      storefrontAccessToken: 'd102430037b108e40ee23a835d74143f',
+    });
+    ShopifyBuy.UI.onReady(client).then(function (ui) {
+      ui.createComponent('cart', {
+        id: '2004494417966',
+        node: document.getElementById('product-component-1567999384194'),
+        moneyFormat: '%24%7B%7Bamount%7D%7D',
+        options: {
+  "product": {
+    "styles": {
+      "product": {
+        "@media (min-width: 601px)": {
+          "max-width": "calc(25% - 20px)",
+          "margin-left": "20px",
+          "margin-bottom": "50px"
+        },
+        "text-align": "left"
+      },
+      "button": {
+        "font-family": "Montserrat, sans-serif",
+        "font-weight": "bold",
+        "font-size": "14px",
+        "padding-top": "10px",
+        "padding-bottom": "10px",
+        "padding-left": "15px",
+        "padding-right": "15px",
+        "color": "#fff",
+        ":hover": {
+          "color": "#000",
+          "background-color": "#e6e6e6"
+        },
+        "background-color": "#111",
+        ":focus": {
+          "background-color": "#e6e6e6"
+        }
+      },
+      "quantityInput": {
+        "font-size": "14px",
+        "padding-top": "15px",
+        "padding-bottom": "15px"
+      }
+    },
+    "contents": {
+      "img": false,
+      "title": false,
+      "price": false
+    },
+    "text": {
+      "button": "Add to cart"
+    },
+    "googleFonts": [
+      "Montserrat"
+    ]
+  },
+  "productSet": {
+    "styles": {
+      "products": {
+        "@media (min-width: 601px)": {
+          "margin-left": "-20px"
+        }
+      }
+    }
+  },
+  "modalProduct": {
+    "contents": {
+      "img": false,
+      "imgWithCarousel": true,
+      "button": false,
+      "buttonWithQuantity": true
+    },
+    "styles": {
+      "product": {
+        "@media (min-width: 601px)": {
+          "max-width": "100%",
+          "margin-left": "0px",
+          "margin-bottom": "0px"
+        }
+      },
+      "button": {
+        "font-family": "Montserrat, sans-serif",
+        "font-weight": "bold",
+        "font-size": "14px",
+        "padding-top": "15px",
+        "padding-bottom": "15px",
+        "color": "#fff",
+        ":hover": {
+          "color": "#000000",
+          "background-color": "#e6e6e6"
+        },
+        "background-color": "#111",
+        ":focus": {
+          "background-color": "#e6e6e6"
+        }
+      },
+      "quantityInput": {
+        "font-size": "14px",
+        "padding-top": "15px",
+        "padding-bottom": "15px"
+      }
+    },
+    "googleFonts": [
+      "Montserrat"
+    ],
+    "text": {
+      "button": "Add to cart"
+    }
+  },
+  "option": {
+    "styles": {
+      "label": {
+        "font-family": "Montserrat",
+        "font-size": "12px",
+    "margin-left": ".2rem",
+    "color": "black"
+      },
+      "select": {
+        "font-family": "Montserrat, sans-serif",
+        "font-weight": "bold"
+      }
+    },
+    "googleFonts": [
+      "Montserrat"
+    ]
+  },
+ "cart": {
+    "styles": {
+      "button": {
+        "font-family": "Montserrat, sans-serif",
+        "font-weight": "bold",
+        "font-size": "14px",
+        "padding-top": "15px",
+        "padding-bottom": "15px",
+        "color": "#fff",
+        ":hover": {
+          "color": "#fff",
+          "background-color": "#e6e6e6"
+        },
+        "background-color": "#111",
+        ":focus": {
+          "background-color": "#e6e6e6"
+        }
+      }
+    },
+    "text": {
+      "total": "Subtotal",
+      "button": "Checkout"
+    },
+    "googleFonts": [
+      "Montserrat"
+    ]
+  },
+  "toggle": {
+    "styles": {
+      "toggle": {
+        "font-family": "Montserrat, sans-serif",
+        "font-weight": "bold",
+        "background-color": "#111",
+        ":hover": {
+          "background-color": "#111"
+        },
+        ":focus": {
+          "background-color": "#e6e6e6"
+        }
+      },
+      "count": {
+        "font-size": "14px",
+        "color": "#fff",
+        ":hover": {
+          "color": "#fff"
+        }
+      },
+      "iconPath": {
+        "fill": "#fff"
+      }
+    },
+    "googleFonts": [
+      "Montserrat"
+    ]
+  }
+},
+      });
+    });
+  }
+})();
+/*]]>*/
+</script>
 
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
