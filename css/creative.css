@@ -247,6 +247,11 @@
 }
 
 /*custom styles*/
+.not-found-message p {
+  color: white !important;
+  font-size: 1rem !important;
+}
+
 .promo-banner {
   height: 2rem;
   background-color: white;
