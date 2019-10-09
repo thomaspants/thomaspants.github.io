@@ -406,6 +406,12 @@
 
 }
 
+@media (max-width: 768px) {
+  .hero-overlay:hover {
+    background-color: transparent;
+  }
+}
+
 @media (max-width: 3200px) {
  .hero-treatment {
   height: 45%;
