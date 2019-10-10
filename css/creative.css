@@ -1061,7 +1061,6 @@ width: 60%;
   background-repeat: no-repeat;
   background-attachment: fixed;
   padding-bottom: 3rem;
-  overflow-y:scroll;
 }
 
 .fun-bg {
@@ -2299,7 +2298,7 @@ body {
   line-height: 1.5;
   color: #212529;
   text-align: left;
-  background-color: #fff;
+  /*background-color: #fff;*/
 }
 
 [tabindex="-1"]:focus {
