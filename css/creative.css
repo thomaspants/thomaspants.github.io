@@ -1061,6 +1061,7 @@ width: 60%;
   background-repeat: no-repeat;
   background-attachment: fixed;
   padding-bottom: 3rem;
+  overflow-y:scroll;
 }
 
 .fun-bg {
