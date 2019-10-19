@@ -771,6 +771,14 @@ $(document).ready(function () {
 
 </script>
 
+<script>
+  $(document).load(function(){
+    $(".shopify-buy__btn").click(function(){
+       fbq('track', 'AddToCart');
+    });
+  });
+</script>
+
 </body>
 
 </html>
