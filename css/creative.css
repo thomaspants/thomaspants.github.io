@@ -269,6 +269,13 @@
   padding-top: .3rem;
 }
 
+@media (max-width: 500px) {
+  .promo-banner p {
+    font-size: .7rem;
+    padding-top: .45rem;
+  }
+}
+
 .promo-banner a {
   color: #f58847;
 }
