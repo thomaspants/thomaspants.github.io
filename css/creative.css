@@ -649,7 +649,12 @@
   z-index: 10;
 }
 
-
+.sticky-logo-pdp {
+  position: sticky !important;
+  position: -webkit-sticky !important;
+  top: 0%; /* required */
+  z-index: ;
+}
 
 .hero-link-top-right {
   background-color: ;
@@ -2002,6 +2007,7 @@ width: 60%;
 
 #pdp-black, #pdp-white, #pdp-black-small, #pdp-white-small, #pdp-green, #pdp-green-small {
   outline: none;
+  z-index: 1000;
 }
 /* buy button */
 
@@ -6705,6 +6711,25 @@ input[type="button"].btn-block {
   position: -webkit-sticky !important;
   top:2%;
   z-index: 1000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 0.5rem 1rem;
+}
+
+.navbar-pdp {
+  position: sticky;
+  position: -webkit-sticky !important;
+  top:2%;
+  z-index: ;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
