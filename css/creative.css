@@ -108,6 +108,34 @@
   font-family: Montserrat;
   }
 
+  .hearts-brand-link {
+    display: inline-block;
+  color: white;
+  font-size: 12em; 
+  font-family: Montserrat;
+  }
+
+  .hearts-brand-link:after {
+    content: attr(data-shadow);
+    position: absolute;
+    top: .06em; left: .0em;
+    z-index: -1;
+    text-shadow: none;
+    background-image:
+      linear-gradient(
+        45deg,
+        transparent 45%,
+        #111 45%,
+        #111 55%,
+        transparent 0
+        );
+    background-size: .05em .05em;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  
+    animation: shad-anim 55s linear infinite;
+    }
+
   .brand-link:after, .lookbook-shop-link:after {
     content: attr(data-shadow);
     position: absolute;
@@ -278,6 +306,10 @@
 
 .promo-banner a {
   color: #f58847;
+}
+
+.hearts-promo-banner-a {
+  color: red !important;
 }
 
 .container-bg {
@@ -1106,6 +1138,15 @@ width: 60%;
   z-index: -1;
 }
 
+.hearts-side-gradient-bg {
+  background-image: linear-gradient(red, white);
+  margin: 0;
+  background-size: 70px 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  z-index: -1;
+}
+
 .shop-title {
   text-align: center;
 }
@@ -1509,6 +1550,15 @@ width: 60%;
 
 .pdp-lookbook-bg {
   background-image: linear-gradient(#f58847, #f9dfba);
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100%;
+  z-index: -100;
+}
+
+.hearts-pdp-lookbook-bg {
+  background-image: linear-gradient(red, white);
   margin: 0;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -2009,8 +2059,27 @@ width: 60%;
   outline: none;
   z-index: 1000;
 }
-/* buy button */
 
+.hearts-selector {
+  font-family: Montserrat;
+  text-decoration: underline !important;
+}
+
+.hearts-selector:hover {
+  text-decoration: none !important;
+}
+
+.hearts-selector-right {
+  font-family: Montserrat;
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+  text-decoration: underline !important;
+}
+
+.hearts-selector-right:hover {
+  text-decoration: none !important;
+}
+/* buy button */
 
 /*fun page*/
 .fun-drinks-row {
@@ -2221,7 +2290,7 @@ width: 60%;
   margin-left:auto !important;
   margin-right: auto !important;
   margin-top: 6rem;
-  margin-bottom: 3rem;
+  margin-bottom: rem;
   padding-bottom: 3rem;
 }
 
@@ -9158,6 +9227,11 @@ a.close.disabled {
   /*margin-top:4rem;*/
   left: 1rem;
 }
+
+.hearts-control-icon {
+  background-image: url('../img/arrow-white.png') !important;
+}
+
 
 @media (max-width: 999px) {
 .pdp-carousel-control-prev {
