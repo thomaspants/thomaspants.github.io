@@ -274,6 +274,49 @@
   }
 }
 
+/*fm styles*/
+.fm-player-row {
+  width: 75%;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  position: relative;
+  height: 0;
+  padding-bottom: 42%;
+}
+
+.fm-player {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0; top: 0;
+}
+
+.fm-subtitle {
+      margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2rem;
+    width: 70%;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.fm-request-form-row {
+  
+}
+
+.fm-request-form {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.fm-request-field {
+  background-color: transparent !important;
+}
+
+.fm-send {
+
+}
+
 /*custom styles*/
 .not-found-message p {
   color: white !important;
